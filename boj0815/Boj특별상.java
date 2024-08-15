@@ -19,8 +19,8 @@ public class Boj특별상 {
             for (int j = 0; j < n; j++) {
                 c[i][j] = Integer.parseInt(tokens.nextToken());
             }
-            System.out.println(divide(n, 0, 0));
         }
+        System.out.println(divide(n, 0, 0));
     }
     //분할 정복
     private static int divide(int size, int row, int col) {
