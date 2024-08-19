@@ -1,5 +1,7 @@
-package boj0820;
+// 63980KB
+// 348ms
 
+package boj0820;
 import java.io.*;
 import java.util.*;
 
