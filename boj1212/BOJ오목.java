@@ -14,7 +14,7 @@ public class BOJ오목 {
 	static StringTokenizer tokens;
 	static BufferedReader input = new BufferedReader(new InputStreamReader(System.in));
 	static int[][] map = new int[19][19]; // 오목판
-	static int[][] deltas = { {0, 1}, {1, 1}, {-1, 1}, {1, 0}, {0, -1}, {-1, -1}, {1, -1}, {-1, 0} };
+	static int[][] deltas = { {0, 1}, {1, 1}, {-1, 1}, {1, 0} };
 	static boolean[][][] visited = new boolean[19][19][4];
 
 	public static void main(String[] args) throws IOException {
